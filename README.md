@@ -23,13 +23,20 @@ de usuario.
 
 ## Características
 
-- **Tokens de diseño**: Centralización de colores, tipografía y sombras para un uso consistente en
-  toda la aplicación.
+- **Tokens de diseño**: Centralización de colores, tipografía, sombras y otros elementos de estilo
+  fundamentales para un uso consistente en toda la aplicación.
+- **Fundamentos (Foundations)**: Define configuraciones básicas como espacios, escalas y breakpoints
+  que forman la base del sistema de diseño.
 - **Componentes reutilizables**: Implementación de Atomic Design con componentes en tres niveles
   principales:
-- **Átomos**: Componentes fundamentales como botones e íconos.
-- **Moléculas**: Componentes intermedios, como tarjetas.
-- **Organismos**: Componentes avanzados que pueden contener moléculas, como barras de navegación.
+    - **Átomos**: Componentes fundamentales como botones e íconos.
+    - **Moléculas**: Componentes intermedios, como tarjetas.
+    - **Organismos**: Componentes avanzados que pueden contener moléculas, como barras de
+      navegación.
+- **Plantillas (Templates)**: Estructuras de diseño completas que combinan organismos para definir
+  una estructura de pantalla reutilizable.
+- **Páginas (Pages)**: Páginas ensambladas que combinan templates y otros componentes para crear
+  vistas completas de la aplicación.
 
 ## Comenzando
 
@@ -72,9 +79,15 @@ integración y uso en proyectos propios.
 ## Estructura de Carpetas
 
 - lib/tokens: Tokens de diseño, como colores, tipografía y sombras.
+- lib/foundations: Elementos fundamentales que definen el estilo base del proyecto, como
+  configuraciones de espacio, escala y breakpoints.
 - lib/atoms: Componentes básicos, como botones e íconos.
 - lib/molecules: Componentes compuestos, como tarjetas.
 - lib/organisms: Componentes de nivel superior, como barras de navegación.
+- lib/templates: Estructuras de diseño completas que pueden incluir organismos y definir una
+  estructura general de pantalla.
+- lib/pages: Contiene las páginas completas que ensamblan templates, organismos y otros componentes
+  para crear vistas completas de la aplicación.
 
 ## Información Adicional
 
