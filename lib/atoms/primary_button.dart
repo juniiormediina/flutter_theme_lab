@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../tokens/colors.dart';
+import '../foundations/colors.dart';
 
 class PrimaryButton extends StatelessWidget {
   final String label;
@@ -20,7 +21,7 @@ class PrimaryButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        backgroundColor: ThemeLabColors.brandPrimary,
+        backgroundColor: ThemeLabColorsFoundation.colorButtonPrimary,
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
         textStyle: textStyle,
       ),
