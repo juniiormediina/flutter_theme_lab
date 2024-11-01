@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../foundations/colors.dart';
 
+/// SecondaryButton es ideal para acciones secundarias o complementarias
+/// en la aplicación.
+
 class SecondaryButton extends StatelessWidget {
   final String label;
   final VoidCallback onPressed;

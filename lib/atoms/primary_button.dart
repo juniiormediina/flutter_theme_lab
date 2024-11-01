@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../tokens/colors.dart';
 import '../foundations/colors.dart';
+
+/// PrimaryButton es ideal para acciones primarias en la aplicación y se puede
+/// reutilizar fácilmente en distintas partes del proyecto.
 
 class PrimaryButton extends StatelessWidget {
   final String label;
