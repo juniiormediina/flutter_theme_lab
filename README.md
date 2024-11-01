@@ -57,7 +57,7 @@ Importa los tokens y componentes en los archivos donde los necesites:
 
   ```dart
   import 'package:flutter_theme_lab/tokens/colors.dart';
-  import 'package:flutter_theme_lab/components/atoms/button.dart';
+  import 'package:flutter_theme_lab/components/atoms/primary_button.dart';
   ```
 
 ## Uso

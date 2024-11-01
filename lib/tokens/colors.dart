@@ -3,6 +3,10 @@ import 'package:flutter/material.dart';
 class ThemeLabColors {
   ThemeLabColors._();
 
+  static const Color primaryColor = Color(0xFF6200EE); // color principal
+  static const Color secondaryColor = Color(0xFF03DAC6); // color secundario
+  static const Color buttonTextColor = Colors.white;
+
   static const Color statusDanger01 = Color.fromARGB(255, 255, 138, 80);
   static const Color statusDanger02 = Color.fromARGB(255, 241, 3, 3);
   static const Color statusSuccess01 = Color.fromARGB(255, 99, 255, 208);
