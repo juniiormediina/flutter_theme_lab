@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class ThemeLabTypography {
   ThemeLabTypography._();
 
@@ -16,4 +18,10 @@ class ThemeLabTypography {
   static const double sizeLG = 40;
   static const double sizeXL = 48;
   static const double sizeXXL = 55;
+
+
+  static const weightBold = FontWeight.w700;
+  static const weightExtraLight = FontWeight.w200;
+  static const weightRegular = FontWeight.w400;
+  static const weightSemiBold = FontWeight.w600;
 }
